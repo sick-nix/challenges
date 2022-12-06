@@ -1,6 +1,6 @@
 const input = await Deno.readTextFile("./input.txt")
 
-const stacks: Array<Array<String>> = []
+const stacks: Array<Array<string>> = []
 let finishedStacks = false
 let i = 0
 for (const line of input.split("\n")) {
