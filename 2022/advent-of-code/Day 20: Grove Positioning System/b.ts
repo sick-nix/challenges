@@ -1,3 +1,7 @@
+/**
+ * Solution is taken from https://www.honingjs.com/challenges/adventofcode/2022/day-20
+ */
+
 const numbers = (await Deno.readTextFile("./input.txt"))
   .split("\n")
   .map((item) => parseInt(item))
